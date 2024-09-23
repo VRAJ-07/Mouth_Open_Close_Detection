@@ -39,31 +39,7 @@ Make sure you have Python 3 installed. The necessary libraries are listed below.
    ```bash
    pip install Click
    ```
-
-## Usage
-
-### Live Capture (Real-time Webcam Detection)
-
-To use the mouth open detection in real-time via webcam:
-
-1. Run the `mouth_open_detection_webcam.py` script:
-
-   ```bash
-   python mouth_open_detection_webcam.py
-   ```
-
-2. The program will launch the default webcam and detect if any detected person's mouth is open or closed. Press `q` to quit.
-
-### Local Images (Image Processing)
-
-1. Run the `mouth_open_detection_images.py` script:
-
-   ```bash
-   python mouth_open_detection_images.py
-   ```
-
-2. Select an image file using the provided file dialog box. The program will process the image and print whether the mouth is open or closed for the detected faces.
-
+   
 ## Mouth Open Algorithm
 
 The `is_mouth_open` function in both the webcam and image scripts works as follows:
